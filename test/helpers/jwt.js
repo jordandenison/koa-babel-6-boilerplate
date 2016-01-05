@@ -1,0 +1,2 @@
+process.env.JWT = new Buffer('test').toString('base64')
+global.token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJEZW5pc29ud2ViIEFQSSIsImlhdCI6MTQ1MTg2MjU2MiwiZXhwIjoxODkzNjI1NzYyLCJhdWQiOiJhcGkuZGVuaXNvbndlYi5jb20iLCJzdWIiOiJqb3JkYW4uZGVuaXNvbkBjbGV2ZXJ0ZWNoLmJpeiJ9.dZaK1W3CBbDv8NwIRxkkLNDJEs95TxD6UJzZ_AP3s1w'

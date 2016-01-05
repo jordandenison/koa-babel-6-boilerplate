@@ -1,0 +1,12 @@
+--check-leaks
+--compilers coffee:coffee-script/register
+--globals expect,sinon
+--recursive
+--require babel-core/register
+--require coffee-coverage/register-istanbul
+--require test/helpers/chai.js
+--require test/helpers/jwt.js
+--require test/helpers/sinon.js
+--require test/helpers/supertest.js
+--reporter spec
+--timeout 5000
